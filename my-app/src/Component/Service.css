@@ -1,0 +1,52 @@
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  
+  .typing {
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  .image-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .image-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .image-container:nth-child(1) {
+    transition-delay: 0.5s;
+  }
+  
+  .image-container:nth-child(2) {
+    transition-delay: 1s;
+  }
+  
+  .image-container:nth-child(3) {
+    transition-delay: 1.5s;
+  }
+  
+  .image-container:nth-child(4) {
+    transition-delay: 2s;
+  }
+  
+  .image-container:nth-child(5) {
+    transition-delay: 2.5s;
+  }
+  

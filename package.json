@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@lordicon/element": "^1.6.0",
+    "@lordicon/react": "^1.6.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "lottie-web": "^5.12.2",
+    "react-bootstrap": "^2.10.4"
+  }
+}

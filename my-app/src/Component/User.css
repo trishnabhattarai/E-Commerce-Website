@@ -1,0 +1,19 @@
+@keyframes pinkBoxAnimation {
+    0% {
+      transform: scale(1);
+      background-color: #fa3311;
+    }
+    50% {
+      transform: scale(1.1);
+      background-color: transparent;
+    }
+    100% {
+      transform: scale(1);
+      background-color: #fa3311;
+    }
+  }
+  
+  .pink-box {
+    animation: pinkBoxAnimation 2s infinite;
+  }
+  
